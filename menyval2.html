@@ -1,0 +1,84 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>topplistor</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Nyheter</a></li>
+                    <li><a href="menyval2.html">Topplistor</a></li>
+                    <li><a href="menyval3.html">Guider</a></li>
+                    <li><a href="menyval4.html">Om</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <h1> Här är spelen som jag gillar mest på mitt Wiiu </h1>
+        <ol> 
+            <li> ZELDA BREATH OF THE WILD.Man kan typ spela 1000 timmar tills amn har klarat ut det. 5av5. </li>
+            <img src="bilder/Zelda.jpg" width="756">
+            
+            <li> DISNEY INFINITY.Man kan bygga egna världar vilket leder till massor av kul. 4av5.
+            <img src="bilder/disney.jpg">
+            
+            <li>  SKYLANDERS IMAGITONS.Jättebra och kul att man kan skapa egna gubbar.Bra story men när man har klarat alla uppdrag blir det ganska tråkigt. 3,95av5.</li>
+            <img src="bilder/skylanders.jpg" width="775">
+            
+            <li>JUST DANCE.Svinkul dans spel där man kan dansa hundratals danser mot andra spelare.3,9av5. </li>
+            <img src="bilder/just.jpg " width="771">
+            
+            <li> Skylanders  Supercharges.Coolt och roligt med alla race.Dock som alla skylanders-spel tråkigt när man har klarat storyn.</li>
+            <img src="bilder/Q.jpg" width="771">>
+        </ol>
+
+        <h1>  Här  rankar jag mina bästa spel på datorn.</h1>
+        <ol>
+            <li> ROBLOX.Jättekul att spela med kompisar och bygga egna minigames.En sak som är tråkigt är att man bara  kan  göra 1 minigame utan builders club som kostar några tusen kronor  per år. 4,7av5.Jag kanske gör en lista där jag rankar mina fem bästa Roblox spel.</li>
+            <img src="bilder/roblox.jpg" width="771">
+            
+            <li> Terraria.Jättekul 2D spel där man utforskar och dödar monster och bygger ,väldigt likt Minecraft.3,8av5.</li>
+            <img src=" bilder/t.jpg" width="771">
+             
+             <li>GEEKTYPER.Är ett spel där man låsas att man hackar.3,6av5</li>
+             <img src="bilder/hack.jpg" width="699">
+
+             
+        </ol>
+    </main>
+</body>
+</html>
